@@ -1,0 +1,31 @@
+package pom;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import functionalDriven.GenericMethods;
+
+public class LoginTest{
+
+	@Test
+	public void login() throws InterruptedException{
+		System.setProperty("webdriver.gecko.driver", "D:\\SirishaRecordings/Jars\\geckodriver.exe");
+		FirefoxDriver driver = new FirefoxDriver();
+		
+		LoginPage loginpage = PageFactory.initElements(driver, LoginPage.class);
+		
+		driver.get(loginpage.url);
+		
+		loginpage.orgLogin(loginpage.u, loginpage.p);
+		
+		AdminPage ap = PageFactory.initElements(driver, AdminPage.class);
+		
+		ap.welcomeclick();
+		Thread.sleep(5000);
+		ap.logoutclick();
+		
+		driver.close();
+	}
+}

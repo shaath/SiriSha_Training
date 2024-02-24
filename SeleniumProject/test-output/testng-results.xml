@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="69862" started-at="2024-02-22T01:42:51Z" finished-at="2024-02-22T01:44:01Z">
+    <groups>
+    </groups>
+    <test name="Firefox" duration-ms="64437" started-at="2024-02-22T01:42:51Z" finished-at="2024-02-22T01:43:56Z">
+      <class name="grid.GridEg">
+        <test-method status="PASS" signature="grid(java.lang.String, java.lang.String)[pri:0, instance:grid.GridEg@224edc67]" name="grid" duration-ms="64204" started-at="2024-02-22T01:42:51Z" finished-at="2024-02-22T01:43:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grid -->
+      </class> <!-- grid.GridEg -->
+    </test> <!-- Firefox -->
+    <test name="Chrome" duration-ms="69862" started-at="2024-02-22T01:42:51Z" finished-at="2024-02-22T01:44:01Z">
+      <class name="grid.GridEg">
+        <test-method status="PASS" signature="grid(java.lang.String, java.lang.String)[pri:0, instance:grid.GridEg@57baeedf]" name="grid" duration-ms="69759" started-at="2024-02-22T01:42:51Z" finished-at="2024-02-22T01:44:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grid -->
+      </class> <!-- grid.GridEg -->
+    </test> <!-- Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,13 @@
+package com.mvnSelenium.programmes;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class LaunchEg {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.gecko.driver", "D:\\SirishaRecordings/Jars\\geckodriver.exe");
+		FirefoxDriver driver = new FirefoxDriver();
+
+	}
+
+}

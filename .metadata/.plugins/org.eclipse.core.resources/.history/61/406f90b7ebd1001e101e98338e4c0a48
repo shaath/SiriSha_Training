@@ -1,0 +1,10 @@
+package com.mvnSelenium.programmes;
+
+public class LaunchEg {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

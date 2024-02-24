@@ -1,0 +1,13 @@
+package pom;
+
+import org.testng.annotations.Test;
+
+import functionalDriven.GenericMethods;
+
+public class LoginTest extends GenericMethods{
+
+	@Test
+	public void login(){
+		
+	}
+}
